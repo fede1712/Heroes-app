@@ -14,7 +14,7 @@ export const HeroesScreen = () => {
     }
 
     const handleReturn = () => {
-        navigate('/');
+        navigate('/')
     }
 
     const { superhero, publisher, alter_ego, first_appearance, characters } = hero
